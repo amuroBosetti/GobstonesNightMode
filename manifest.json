@@ -1,0 +1,29 @@
+  {
+    "name": "Gobstones Night Mode",
+    "version": "1.0",
+    "description": "Modo nocturno para Gobstones, el IDE web para aprender a programar.",
+    "permissions": ["tabs", "https://gobstones.github.io/*", "storage"],
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+
+    "content_scripts": [
+    	{
+    		"matches": ["https://gobstones.github.io/*"],
+    		"js" : ["content.js"],
+    		"css": ["content.css"]
+    	}
+    ],
+
+    "page_action": {
+    	"default_popup": "popup.html",
+    	"default_icon": "images/icon.png"
+
+    },
+    "icons":{
+    	"256": "images/icon.png"
+    },
+    "manifest_version": 2
+  }
