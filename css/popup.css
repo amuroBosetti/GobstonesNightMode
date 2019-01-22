@@ -1,0 +1,38 @@
+body{
+    width: 200px;
+    text-align: center;
+    font-family: "Dosis";
+    font-size: 15px;
+    margin-bottom: 30px;
+    }
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    }
+
+.buttons{
+	border: none;
+    background: #E89D47;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 20px 20px 20px 20px;
+    cursor: pointer;
+    }
+
+.buttons:hover{
+    background-color: white;
+    border: 2px solid #E89D47;
+    }
+
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#git{
+    width: 50%;
+}
