@@ -1,7 +1,6 @@
 # Gobstones Night Mode
 
-Gobstones Night Mode is a Chrome extension that changes the colors and background on the web IDE for the Gobstones
-programming language (you can learn more about it [here](https://github.com/gobstones)).
+Gobstones Night Mode is a Chrome extension that changes the colors and background on the web IDE for the Gobstones programming language (you can learn more about it [here](https://github.com/gobstones)).
 
 ![](images/GNMscreenshot.png)
 
@@ -11,4 +10,4 @@ programming language (you can learn more about it [here](https://github.com/gobs
 
 ## Disclaimer
 
-All icons used in the extension are the original Gobstones icons
+All icons used in the extension are the original Gobstones icons.
