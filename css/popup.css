@@ -36,3 +36,7 @@ a{
 #git{
     width: 50%;
 }
+
+#acivated{
+    font-weight: bold;
+}
